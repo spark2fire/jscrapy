@@ -1,0 +1,12 @@
+cn.spark2fire.jscrapy
+cn.spark2fire.jscrapy.configurable
+cn.spark2fire.jscrapy.downloader
+cn.spark2fire.jscrapy.example
+cn.spark2fire.jscrapy.handler
+cn.spark2fire.jscrapy.model
+cn.spark2fire.jscrapy.model.annotation
+cn.spark2fire.jscrapy.model.formatter
+cn.spark2fire.jscrapy.monitor
+cn.spark2fire.jscrapy.pipeline
+cn.spark2fire.jscrapy.scheduler
+cn.spark2fire.jscrapy.utils

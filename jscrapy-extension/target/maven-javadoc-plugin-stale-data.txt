@@ -1,0 +1,19 @@
+cmd.exe
+/X
+/C
+""C:\Program Files\Java\jdk1.8.0_201\bin\javadoc.exe" @options @argfile"
+D:\GitHub\jscrapy\jscrapy-extension\target\apidocs\allclasses-frame.html = 1614693193091
+D:\GitHub\jscrapy\jscrapy-extension\target\apidocs\allclasses-noframe.html = 1614693193095
+D:\GitHub\jscrapy\jscrapy-extension\target\apidocs\argfile = 1614693191580
+D:\GitHub\jscrapy\jscrapy-extension\target\apidocs\constant-values.html = 1614693192944
+D:\GitHub\jscrapy\jscrapy-extension\target\apidocs\deprecated-list.html = 1614693193089
+D:\GitHub\jscrapy\jscrapy-extension\target\apidocs\help-doc.html = 1614693193100
+D:\GitHub\jscrapy\jscrapy-extension\target\apidocs\index-all.html = 1614693193085
+D:\GitHub\jscrapy\jscrapy-extension\target\apidocs\index.html = 1614693193097
+D:\GitHub\jscrapy\jscrapy-extension\target\apidocs\options = 1614693191580
+D:\GitHub\jscrapy\jscrapy-extension\target\apidocs\overview-frame.html = 1614693192871
+D:\GitHub\jscrapy\jscrapy-extension\target\apidocs\overview-summary.html = 1614693193098
+D:\GitHub\jscrapy\jscrapy-extension\target\apidocs\overview-tree.html = 1614693193069
+D:\GitHub\jscrapy\jscrapy-extension\target\apidocs\package-list = 1614693192869
+D:\GitHub\jscrapy\jscrapy-extension\target\apidocs\script.js = 1614693193102
+D:\GitHub\jscrapy\jscrapy-extension\target\apidocs\stylesheet.css = 1614693193101
