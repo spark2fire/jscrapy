@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/jscrapy-core/jscrapy-core.iml" filepath="$PROJECT_DIR$/jscrapy-core/jscrapy-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jscrapy-extension/jscrapy-extension.iml" filepath="$PROJECT_DIR$/jscrapy-extension/jscrapy-extension.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jscrapy-parent.iml" filepath="$PROJECT_DIR$/jscrapy-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jscrapy-samples/jscrapy-samples.iml" filepath="$PROJECT_DIR$/jscrapy-samples/jscrapy-samples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jscrapy-saxon/jscrapy-saxon.iml" filepath="$PROJECT_DIR$/jscrapy-saxon/jscrapy-saxon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jscrapy-selenium/jscrapy-selenium.iml" filepath="$PROJECT_DIR$/jscrapy-selenium/jscrapy-selenium.iml" />
+    </modules>
+  </component>
+</project>

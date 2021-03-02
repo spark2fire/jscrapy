@@ -32,7 +32,6 @@
     <modules>
         <module>jscrapy-core</module>
         <module>jscrapy-extension/</module>
-        <module>jscrapy-scripts/</module>
         <module>jscrapy-selenium</module>
         <module>jscrapy-saxon</module>
         <module>jscrapy-samples</module>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="jscrapy-core" />
+        <module name="jscrapy-extension" />
+        <module name="jscrapy-selenium" />
+        <module name="jscrapy-saxon" />
+        <module name="jscrapy-samples" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="jscrapy-core" target="1.8" />
+      <module name="jscrapy-extension" target="1.8" />
+      <module name="jscrapy-parent" target="1.8" />
+      <module name="jscrapy-samples" target="1.8" />
+      <module name="jscrapy-saxon" target="1.8" />
+      <module name="jscrapy-selenium" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
