@@ -1,13 +1,13 @@
 package cn.spark2fire.jscrapy.example;
 
-import cn.spark2fire.jscrapy.handler.CompositePageProcessor;
-import cn.spark2fire.jscrapy.handler.RequestMatcher;
+import cn.spark2fire.jscrapy.entity.CompositePageProcessor;
+import cn.spark2fire.jscrapy.entity.RequestMatcher;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import cn.spark2fire.jscrapy.*;
-import cn.spark2fire.jscrapy.handler.CompositePipeline;
-import cn.spark2fire.jscrapy.handler.PatternProcessor;
+import cn.spark2fire.jscrapy.entity.CompositePipeline;
+import cn.spark2fire.jscrapy.entity.PatternProcessor;
 
 /**
  * Created with IntelliJ IDEA.

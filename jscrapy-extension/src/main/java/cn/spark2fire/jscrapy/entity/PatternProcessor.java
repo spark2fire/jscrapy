@@ -1,4 +1,4 @@
-package cn.spark2fire.jscrapy.handler;
+package cn.spark2fire.jscrapy.entity;
 
 /**
  * @author code4crafer@gmail.com

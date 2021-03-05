@@ -1,4 +1,4 @@
-package cn.spark2fire.jscrapy.handler;
+package cn.spark2fire.jscrapy.entity;
 
 import cn.spark2fire.jscrapy.ResultItems;
 import cn.spark2fire.jscrapy.Task;

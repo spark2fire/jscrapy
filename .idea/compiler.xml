@@ -11,9 +11,11 @@
         <module name="jscrapy-selenium" />
         <module name="jscrapy-saxon" />
         <module name="jscrapy-samples" />
+        <module name="jscrapy-application" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="jscrapy-application" target="8" />
       <module name="jscrapy-core" target="1.8" />
       <module name="jscrapy-extension" target="1.8" />
       <module name="jscrapy-parent" target="1.8" />

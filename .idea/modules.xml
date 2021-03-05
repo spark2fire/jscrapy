@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/jscrapy-application/jscrapy-application.iml" filepath="$PROJECT_DIR$/jscrapy-application/jscrapy-application.iml" />
       <module fileurl="file://$PROJECT_DIR$/jscrapy-core/jscrapy-core.iml" filepath="$PROJECT_DIR$/jscrapy-core/jscrapy-core.iml" />
       <module fileurl="file://$PROJECT_DIR$/jscrapy-extension/jscrapy-extension.iml" filepath="$PROJECT_DIR$/jscrapy-extension/jscrapy-extension.iml" />
       <module fileurl="file://$PROJECT_DIR$/jscrapy-parent.iml" filepath="$PROJECT_DIR$/jscrapy-parent.iml" />
