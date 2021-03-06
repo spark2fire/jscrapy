@@ -35,7 +35,7 @@
         <module>jscrapy-selenium</module>
         <module>jscrapy-saxon</module>
         <module>jscrapy-samples</module>
-        <module>jscrapy-aop</module>
+        <module>jscrapy-application</module>
     </modules>
 
     <dependencyManagement>

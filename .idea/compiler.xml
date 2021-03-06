@@ -15,6 +15,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="jscrapy-aop" target="8" />
       <module name="jscrapy-application" target="8" />
       <module name="jscrapy-core" target="1.8" />
       <module name="jscrapy-extension" target="1.8" />
