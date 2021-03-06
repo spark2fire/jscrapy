@@ -1,6 +1,6 @@
 package cn.spark2fire.jscrapy.util;
 
-public class PriorityQueue<T extends Comparable<? super T>> {
+public class PriorityQueue<T extends Comparable> {
     private T[] array;
     private int size = 10;
     private int lastIdx;

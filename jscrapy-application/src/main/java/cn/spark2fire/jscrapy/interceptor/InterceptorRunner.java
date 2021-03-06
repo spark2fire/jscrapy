@@ -1,6 +1,7 @@
 package cn.spark2fire.jscrapy.interceptor;
 
-import cn.spark2fire.jscrapy.impl.ProcessorRunner;
+import cn.spark2fire.jscrapy.entity.ProcessorBean;
+import cn.spark2fire.jscrapy.util.PriorityQueue;
 
 import java.util.HashSet;
 import java.util.Set;
@@ -27,9 +28,11 @@ public class InterceptorRunner {
         return interceptors;
     }
 
-    public void invoke() {
+    public PriorityQueue<ProcessorBean> invoke() {
+        PriorityQueue<ProcessorBean> result = new PriorityQueue<>();
         for (Interceptor interceptor : interceptors) {
             interceptor.intercept(clazz);
         }
+        return result;
     }
 }

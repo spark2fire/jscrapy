@@ -24,7 +24,7 @@
         </dependency>
         <dependency>
             <groupId>${project.groupId}</groupId>
-            <artifactId>jscrapy-extension</artifactId>
+            <artifactId>jscrapy-selenium</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
