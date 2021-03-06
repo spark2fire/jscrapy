@@ -3,7 +3,7 @@ package cn.spark2fire.jscrapy.entity;
 import cn.spark2fire.jscrapy.processor.PageProcessor;
 
 public class ProcessorBean implements Comparable {
-    private int order;
+    public int order;
     private String url;
     private PageProcessor processor;
 

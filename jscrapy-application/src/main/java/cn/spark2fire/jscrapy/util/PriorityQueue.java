@@ -6,7 +6,7 @@ public class PriorityQueue<T extends Comparable> {
     private int lastIdx;
 
     public PriorityQueue() {
-        array = (T[]) new Object[size];
+        array = (T[]) new Comparable[size];
         lastIdx = -1;
     }
 
@@ -45,7 +45,7 @@ public class PriorityQueue<T extends Comparable> {
     }
 
     private void extendSize() {
-        T[] temp = (T[]) new Object[size + size / 2];
+        T[] temp = (T[]) new Comparable[size + size / 2];
         for (int i = 0; i < size; i++) {
             temp[i] = array[i];
         }

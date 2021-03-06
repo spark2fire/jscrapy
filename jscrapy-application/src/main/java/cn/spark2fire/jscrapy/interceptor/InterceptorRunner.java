@@ -1,6 +1,7 @@
 package cn.spark2fire.jscrapy.interceptor;
 
 import cn.spark2fire.jscrapy.entity.ProcessorBean;
+import cn.spark2fire.jscrapy.processor.PageProcessor;
 import cn.spark2fire.jscrapy.util.PriorityQueue;
 
 import java.util.HashSet;
@@ -8,12 +9,12 @@ import java.util.Set;
 
 public class InterceptorRunner {
 
-    private Class<?> clazz;
+    private Set<PageProcessor> processors;
     private Set<Interceptor> interceptors = new HashSet<>();
 
-    public InterceptorRunner(Class<?> clazz) {
+    public InterceptorRunner(Set<PageProcessor> processors) {
         interceptors.add(new OrderInterceptor());
-        this.clazz = clazz;
+        this.processors = processors;
     }
 
     public void clear() {
@@ -30,8 +31,13 @@ public class InterceptorRunner {
 
     public PriorityQueue<ProcessorBean> invoke() {
         PriorityQueue<ProcessorBean> result = new PriorityQueue<>();
-        for (Interceptor interceptor : interceptors) {
-            interceptor.intercept(clazz);
+        ProcessorBean bean;
+        for (PageProcessor processor : processors) {
+            bean = new ProcessorBean(99, "", processor);
+            for (Interceptor interceptor : interceptors) {
+                interceptor.intercept(processor.getClass(), bean);
+            }
+            result.insert(bean);
         }
         return result;
     }
