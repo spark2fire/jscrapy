@@ -1,6 +1,7 @@
 package cn.spark2fire.jscrapy.boot;
 
 import cn.spark2fire.jscrapy.entity.ProcessorBean;
+import cn.spark2fire.jscrapy.impl.ProcessorRunner;
 import cn.spark2fire.jscrapy.interceptor.InterceptorRunner;
 import cn.spark2fire.jscrapy.pipeline.Pipeline;
 import cn.spark2fire.jscrapy.processor.PageProcessor;
@@ -39,6 +40,14 @@ public class SpiderApplication {
             }
             InterceptorRunner interceptorRunner = new InterceptorRunner(beans);
             PriorityQueue<ProcessorBean> queue = interceptorRunner.invoke();
+
+            ProcessorRunner runner = new ProcessorRunner(isSelenium, pipeline);
+
+            while (!queue.isEmpty()) {
+                runner.addProcessorBean(queue.pop());
+            }
+
+            runner.start();
             System.out.println();
         } catch (InstantiationException | IllegalAccessException ex) {
             ex.printStackTrace();

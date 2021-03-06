@@ -14,6 +14,7 @@ public class InterceptorRunner {
 
     public InterceptorRunner(Set<PageProcessor> processors) {
         interceptors.add(new OrderInterceptor());
+        interceptors.add(new SUrlInterceptor());
         this.processors = processors;
     }
 

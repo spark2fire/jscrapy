@@ -1,28 +1,25 @@
 package cn.spark2fire.jscrapy.interceptor;
 
-import cn.spark2fire.jscrapy.annotation.Order;
+import cn.spark2fire.jscrapy.annotation.SUrl;
 import cn.spark2fire.jscrapy.entity.ProcessorBean;
 
-public class OrderInterceptor implements Interceptor {
-
-    private Interceptor nextInterceptor;
-
+public class SUrlInterceptor implements Interceptor {
     @Override
     public void intercept(Class<?> clazz, ProcessorBean processorBean) {
-        Order annotation = clazz.getAnnotation(Order.class);
+        SUrl annotation = clazz.getAnnotation(SUrl.class);
         if (annotation != null) {
-            int order = annotation.value();
-            processorBean.order = order;
+            String url = annotation.value();
+            processorBean.setUrl(url);
         }
     }
 
     @Override
     public void setNextInterceptor(Interceptor interceptor) {
-        this.nextInterceptor = interceptor;
+
     }
 
     @Override
     public Interceptor getNextInterceptor() {
-        return nextInterceptor;
+        return null;
     }
 }

@@ -3,9 +3,11 @@ package cn.spark2fire.jscrapy.example;
 import cn.spark2fire.jscrapy.Page;
 import cn.spark2fire.jscrapy.Site;
 import cn.spark2fire.jscrapy.annotation.Order;
+import cn.spark2fire.jscrapy.annotation.SUrl;
 import cn.spark2fire.jscrapy.processor.PageProcessor;
 
 @Order(1)
+@SUrl("www.baidu.com")
 public class ExampleProcessor implements PageProcessor {
     private Site site = Site.me()
             .setRetryTimes(3)
